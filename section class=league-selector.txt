@@ -1,0 +1,92 @@
+<section class="league-selector">
+
+  <button class="league-btn active" data-league="eng.1">
+    🏴 Premier League
+  </button>
+
+  <button class="league-btn" data-league="esp.1">
+    🇪🇸 LaLiga
+  </button>
+
+  <button class="league-btn" data-league="ger.1">
+    🇩🇪 Bundesliga
+  </button>
+
+  <button class="league-btn" data-league="ita.1">
+    🇮🇹 Serie A
+  </button>
+
+  <button class="league-btn" data-league="fra.1">
+    🇫🇷 Ligue 1
+  </button>
+
+  <button class="league-btn" data-league="uefa.champions">
+    🏆 UEFA Champions League
+  </button>
+
+</section>const leagues = {
+
+  "eng.1": {
+    name: "Premier League",
+    country: "England"
+  },
+
+  "esp.1": {
+    name: "LaLiga",
+    country: "Spain"
+  },
+
+  "ger.1": {
+    name: "Bundesliga",
+    country: "Germany"
+  },
+
+  "ita.1": {
+    name: "Serie A",
+    country: "Italy"
+  },
+
+  "fra.1": {
+    name: "Ligue 1",
+    country: "France"
+  }
+
+};const leagues = {
+
+  "eng.1": {
+    name: "Premier League",
+    country: "England"
+  },
+
+  "esp.1": {
+    name: "LaLiga",
+    country: "Spain"
+  },
+
+  "ger.1": {
+    name: "Bundesliga",
+    country: "Germany"
+  },
+
+  "ita.1": {
+    name: "Serie A",
+    country: "Italy"
+  },
+
+  "fra.1": {
+    name: "Ligue 1",
+    country: "France"
+  },
+
+  "uefa.champions": {
+    name: "UEFA Champions League",
+    country: "Europe"
+  }
+
+};
+
+uefa.champions
+
+https://site.api.espn.com/apis/site/v2/sports/soccer/${currentLeague}/scoreboard
+
+https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.champions/scoreboard
